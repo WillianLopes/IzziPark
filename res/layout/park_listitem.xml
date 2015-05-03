@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp" 
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp" >
+    
+   <ImageView
+	 android:id="@+id/img_rest"
+	 android:layout_width="80dp"
+	 android:layout_height="80dp"
+	 android:padding="5dp"
+	 android:src="@drawable/mini_car_icon"
+	 android:contentDescription="@string/park_icon_alt"
+	 android:background="@drawable/imageborder" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_placa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:text="@string/placa" />
+
+        <TextView
+            android:id="@+id/tv_entrada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:singleLine="true"     
+            android:text="@string/entrada" />
+
+        <TextView
+            android:id="@+id/tv_saida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:singleLine="true"
+            android:text="@string/saida" />
+    </LinearLayout>   
+
+</LinearLayout>

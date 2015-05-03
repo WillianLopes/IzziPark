@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_way" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/back_neutral_menu" >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                     <EditText
+				        android:id="@+id/edtUsuario_login"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_centerHorizontal="true"
+				        android:layout_marginBottom="65dp"
+				        android:ems="10"
+				        android:gravity="center_horizontal"
+				        android:hint="Usuário"
+				        android:inputType="textPersonName"
+				        android:shadowColor="#000000"
+				        android:shadowDx="2"
+				        android:shadowDy="2"
+				        android:shadowRadius="0.5"
+				        android:textColor="#FFFFFF"
+				        android:textColorHint="#FFFFFF"
+				        android:textSize="20sp"
+				        android:textStyle="bold" >
+        			<requestFocus />
+    			</EditText>
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                     <EditText
+				        android:id="@+id/edtUsuario_senha"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_centerHorizontal="true"
+				        android:layout_marginBottom="65dp"
+				        android:ems="10"
+				        android:gravity="center_horizontal"
+				        android:hint="Senha"
+				        android:inputType="textPersonName"
+				        android:shadowColor="#000000"
+				        android:shadowDx="2"
+				        android:shadowDy="2"
+				        android:shadowRadius="0.5"
+				        android:textColor="#FFFFFF"
+				        android:textColorHint="#FFFFFF"
+				        android:textSize="20sp"
+				        android:textStyle="bold" >
+    			</EditText>
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                     <EditText
+				        android:id="@+id/edtUsuario_email"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_centerHorizontal="true"
+				        android:layout_marginBottom="65dp"
+				        android:ems="10"
+				        android:gravity="center_horizontal"
+				        android:hint="E-mail"
+				        android:inputType="textPersonName"
+				        android:shadowColor="#000000"
+				        android:shadowDx="2"
+				        android:shadowDy="2"
+				        android:shadowRadius="0.5"
+				        android:textColor="#FFFFFF"
+				        android:textColorHint="#FFFFFF"
+				        android:textSize="20sp"
+				        android:textStyle="bold" >
+    			</EditText>
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                     <EditText
+				        android:id="@+id/edtUsuario_cpf"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_centerHorizontal="true"
+				        android:layout_marginBottom="65dp"
+				        android:ems="10"
+				        android:gravity="center_horizontal"
+				        android:hint="CPF"
+				        android:inputType="number"
+				        android:shadowColor="#000000"
+				        android:shadowDx="2"
+				        android:shadowDy="2"
+				        android:shadowRadius="0.5"
+				        android:textColor="#FFFFFF"
+				        android:textColorHint="#FFFFFF"
+				        android:textSize="20sp"
+				        android:textStyle="bold" >
+    			</EditText>
+                </RelativeLayout>
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                     <EditText
+				        android:id="@+id/edtUsuario_cep"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_centerHorizontal="true"
+				        android:layout_marginBottom="65dp"
+				        android:ems="10"
+				        android:gravity="center_horizontal"
+				        android:hint="CEP"
+				        android:inputType="number"
+				        android:shadowColor="#000000"
+				        android:shadowDx="2"
+				        android:shadowDy="2"
+				        android:shadowRadius="0.5"
+				        android:textColor="#FFFFFF"
+				        android:textColorHint="#FFFFFF"
+				        android:textSize="20sp"
+				        android:textStyle="bold" >
+    			</EditText>
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            </TableRow>
+        </TableLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/back_blue_menu" >
+
+            <TextView
+                android:id="@+id/titlePERFIL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="PERFIL"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <Button
+                android:id="@+id/btnSair_perfil"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/centralizador"
+                android:background="@color/back_neutral_menu"
+                android:text="VOLTAR"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnSalvar_perfil"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/centralizador"
+                android:background="@color/back_neutral_menu"
+                android:text="SALVAR"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/centralizador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

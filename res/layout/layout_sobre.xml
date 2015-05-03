@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_way" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/back_neutral_menu" >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+            
+            <TableRow
+                android:id="@+id/tableRow0"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:text="Software desenvolvido por:" />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="Igor Arduini Fragola" />
+                </RelativeLayout>
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="Paulo Henrique" />
+                </RelativeLayout>
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="Willian Apolinário Lopes" />
+                </RelativeLayout>
+            </TableRow>
+
+        </TableLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/back_blue_menu" >
+
+            <TextView
+                android:id="@+id/titleSOBRE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="SOBRE"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <Button
+                android:id="@+id/btnSair_sobre"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/back_neutral_menu"
+                android:text="VOLTAR"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

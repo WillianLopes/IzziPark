@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+    <!-- LABELS GENERICO -->
+    <string name="app_name">Izzi Park</string>
+    <string name="park_icon_alt">Icone park</string>
+    <string name="id">ID</string>
+    <string name="placa">Placa</string>
+    <string name="entrada">Entrada</string>
+    <string name="saida">Saída</string>
+    <string name="tipo">Tipo</string>
+    
+    <!-- LABELS FORMULÁRIOS VIEW GENERICO -->
+    <string name="id_label">ID :</string>
+    <string name="placa_label">Placa (*):</string>
+    <string name="entrada_label">Entrada (*):</string>
+    <string name="saida_label">Saída :</string>
+    <string name="tipo_label">Tipo :</string>
+    
+    <!-- LABELS DETALHES VIEW GENERICO -->
+    <string name="id_view">ID :</string>
+    <string name="placa_view">Placa:</string>
+    <string name="entrada_view">Entrada:</string>
+    <string name="saida_view">Saída:</string>
+
+    <string name="menu_new_park">Nova placa</string>
+    <string name="menu_search_park">Procurar placa</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="title_activity_park_create">Adicionar Nova placa</string>
+    
+    <!-- BOTÕES MENU PRINCIPAL -->
+    <string name="lbl_Cadastrarpark">Placa</string>
+    <string name="lbl_sobre">Sobre</string>
+    <string name="lbl_ajuda">Ajuda</string>
+    <string name="lbl_voltar">VOLTAR</string>
+    <string name="lbl_speech">Voz</string>
+    <string name="lbl_sair">Sair</string>
+    
+    <!-- REMOVE PARK -->
+    <string name="removed_successfully">removido com sucesso.</string>
+    <string name="remove_park">Remover placa</string>
+    <string name="remove">Remover</string>
+    <string name="remove_confirm_message">Deseja remover</string>
+
+    <!-- ADD PARK VIEW -->
+    <string name="add_park">Adicionar placa</string>
+    <string name="cancel">Cancelar</string>
+    <string name="added_park">Adicionar placa</string>
+    <string name="added_park_msg">adicionado com sucesso.</string>
+    
+    <string name="added_user">Adicionar usuário</string>
+    
+    <string name="search_park">Procurar placa</string>
+    
+    <string name="ok">OK</string>
+    
+    <!-- UPDATE PARK VIEW -->
+    <string name="update_park">Atualizar placa</string>
+    <string name="save">Salvar</string>
+    <string name="title_activity_park_update">Atualizar placa</string>
+    <string name="update">Atualizar</string>
+    <string name="upated_successfully">atualizado com sucesso.</string>
+    <string name="updated_fail">A atualização falhou.</string>
+    
+    <!-- Validação Login -->
+    <string name="msg_login_obrg">Login Obrigatório</string>
+    <string name="msg_senha_obrg">Senha Obrigatória</string>
+    <string name="msg_login_invalido">Usuário/Senha Inválidos!</string>
+    <string name="msg_login_sucesso">Login Efetuado com Sucesso!</string>
+   
+</resources>

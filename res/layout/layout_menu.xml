@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_way" >
+
+    <RelativeLayout
+        android:id="@+id/btnCadastrarpark"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/centralizador"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="@color/back_neutral_menu" >
+
+        <ImageView
+            android:id="@+id/imgCadastrarpark"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/car" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgCadastrarpark"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="@string/lbl_Cadastrarpark"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/centralizador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="."
+        android:textSize="1sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/btnSobre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/centralizador"
+        android:layout_centerHorizontal="true"
+        android:background="@color/back_neutral_menu" >
+
+	    <ImageView
+	        android:id="@+id/imgSobre"
+	        android:layout_width="100dp"
+	        android:layout_height="80dp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:src="@drawable/about" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgSobre"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="@string/lbl_sobre"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/back_neutral_menu"
+        android:text="SAIR"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/back_blue_menu" >
+
+        <TextView
+            android:id="@+id/titleMENU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="MENU"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

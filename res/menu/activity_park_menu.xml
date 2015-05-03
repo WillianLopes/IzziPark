@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_new_park"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/menu_new_park"/>
+    
+    <item
+        android:id="@+id/menu_search_park"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/menu_search_park"/>
+    
+    <item
+        android:id="@+id/refreshList"
+        android:icon="@drawable/refresh"
+        android:showAsAction="ifRoom"
+        android:title="crop"/>
+
+</menu>

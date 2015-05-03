@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp" 
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp" >
+    
+    <!--  GENERAL LAYOUT -->
+    <LinearLayout 
+   		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" 
+    	android:paddingTop="20dp"
+    	android:paddingBottom="20dp" 
+    	android:paddingLeft="15dp"
+    	android:paddingRight="15dp" >
+    	
+        <!-- CAR ICON -->
+       	<ImageView
+        	android:id="@+id/detail_img_rest"
+        	android:layout_width="100dp"
+        	android:layout_height="100dp"
+        	android:padding="10dp"
+        	android:src="@drawable/mini_car_icon"
+        	android:contentDescription="@string/park_icon_alt"
+        	android:layout_gravity="center_horizontal"
+        	android:background="@drawable/imageborder"  />
+       
+       <!-- DETAILS LAYOUT -->	
+       <LinearLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	android:layout_gravity="center_horizontal"
+        	android:paddingTop="20dp"
+        	android:paddingBottom="20dp"  >
+        	
+			<!-- ID LAYOUT -->
+            <LinearLayout
+           		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:orientation="horizontal" 
+       			android:gravity="center_horizontal"
+       			android:paddingTop="5dp"
+       			android:paddingBottom="5dp" >
+       		
+                <!-- ID  LABEL -->
+
+	          	<TextView
+	          	    android:id="@+id/detail_label_id"
+	          	    android:layout_width="85dp"
+	          	    android:layout_height="wrap_content"
+	          	    android:paddingTop="2dp"
+	          	    android:singleLine="true"
+	          	    android:text="@string/id_label"
+	          	    android:textSize="14sp"
+	          	    android:textStyle="bold" />
+	          	
+          		<!-- ID  VALUE -->
+	          	<TextView
+		            android:id="@+id/detail_id"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:paddingLeft="35dp"
+		            android:paddingTop="2dp"
+		            android:textSize="14sp"
+		            android:singleLine="true"
+		            android:text="@string/id" />
+           
+           </LinearLayout>
+           <!-- ID LAYOUT END -->
+           
+			<!-- PLACA LAYOUT -->
+            <LinearLayout
+           		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:orientation="horizontal" 
+       			android:gravity="center_horizontal"
+       			android:paddingTop="5dp"
+       			android:paddingBottom="5dp" >
+       		
+                <!-- PLACA  LABEL -->
+	          	<TextView
+	          	    android:id="@+id/detail_label_placa"
+	          	    android:layout_width="85dp"
+	          	    android:layout_height="wrap_content"
+	          	    android:paddingTop="2dp"
+	          	    android:singleLine="true"
+	          	    android:text="@string/placa_view"
+	          	    android:textSize="14sp"
+	          	    android:textStyle="bold" />
+	          	
+          		<!-- PLACA  VALUE -->
+	          	<TextView
+		            android:id="@+id/detail_placa"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:paddingLeft="35dp"
+		            android:paddingTop="2dp"
+		            android:textSize="14sp"
+		            android:singleLine="true"
+		            android:text="@string/placa" />
+           
+           </LinearLayout>
+           <!-- PLACA LAYOUT END -->           
+           
+			<!-- ENTRADA LAYOUT -->
+            <LinearLayout
+           		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:orientation="horizontal" 
+       			android:gravity="center_horizontal" 
+       			android:paddingTop="5dp"
+       			android:paddingBottom="5dp" >       		
+                <!-- ENTRADA LABEL -->
+
+	          	<TextView
+	          	    android:id="@+id/detail_label_entrada"
+	          	    android:layout_width="85dp"
+	          	    android:layout_height="wrap_content"
+	          	    android:paddingTop="2dp"
+	          	    android:singleLine="true"
+	          	    android:text="@string/entrada_view"
+	          	    android:textSize="14sp"
+	          	    android:textStyle="bold" />
+	          	
+          		<!-- ENTRADA  VALUE -->
+	          	<TextView
+		            android:id="@+id/detail_entrada"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:inputType="textMultiLine"
+		            android:paddingLeft="35dp"
+		            android:paddingTop="2dp"
+		            android:textSize="14sp"
+		            android:singleLine="false"
+		            android:text="@string/entrada" />
+           
+           </LinearLayout>
+           <!-- ENTRADA LAYOUT END -->
+           
+			<!-- SAIDA LAYOUT -->
+            <LinearLayout
+           		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:orientation="horizontal" 
+       			android:gravity="center_horizontal" 
+       			android:paddingTop="5dp"
+       			android:paddingBottom="5dp" >
+       		
+                <!-- SAIDA LABEL -->
+	          	<TextView
+	          	    android:id="@+id/detail_label_saida"
+	          	    android:layout_width="85dp"
+	          	    android:layout_height="wrap_content"
+	          	    android:paddingTop="2dp"
+	          	    android:singleLine="true"
+	          	    android:text="@string/saida_label"
+	          	    android:textSize="14sp"
+	          	    android:textStyle="bold" />
+	          	
+          		<!-- SAIDA  VALUE -->
+	          	<TextView
+		            android:id="@+id/detail_saida"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:paddingLeft="35dp"
+		            android:paddingTop="2dp"
+		            android:textSize="14sp"
+		            android:singleLine="true"
+		            android:text="@string/saida" />
+           
+           </LinearLayout>
+           <!-- SAIDA LAYOUT END -->      
+           
+           
+           <!-- SAIDA LAYOUT -->
+            <LinearLayout
+           		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:orientation="horizontal" 
+       			android:gravity="center_horizontal" 
+       			android:paddingTop="5dp"
+       			android:paddingBottom="5dp" >
+       		
+                <!-- SAIDA LABEL -->
+	          	<TextView
+	          	    android:id="@+id/detail_label_tipo"
+	          	    android:layout_width="85dp"
+	          	    android:layout_height="wrap_content"
+	          	    android:paddingTop="2dp"
+	          	    android:singleLine="true"
+	          	    android:text="@string/tipo_label"
+	          	    android:textSize="14sp"
+	          	    android:textStyle="bold" />
+	          	
+          		<!-- SAIDA  VALUE -->
+	          	<TextView
+		            android:id="@+id/detail_tipo"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:paddingLeft="35dp"
+		            android:paddingTop="2dp"
+		            android:textSize="14sp"
+		            android:singleLine="true"
+		            android:text="@string/tipo" />
+           
+           </LinearLayout>
+           <!-- SAIDA LAYOUT END -->           
+           
+			
+           
+        </LinearLayout>
+       	<!-- DETAILS LAYOUT END -->
+       		
+    </LinearLayout>
+	<!--  GENERAL LAYOUT END -->
+</ScrollView>
