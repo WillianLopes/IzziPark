@@ -1,5 +1,5 @@
 # IzziPark
-Some requirements that this App uses:
+Some requirements that this application uses:
 - Widgets
 - WebService
 - Notification
