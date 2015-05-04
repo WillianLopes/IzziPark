@@ -1,2 +1,7 @@
 # IzziPark
-App with WebService
+App that use the follows requirements:
+- Widgets
+- WebService
+- Notification
+- Shared Preferences
+- SQLite
